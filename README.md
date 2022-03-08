@@ -98,5 +98,6 @@ ADD THIS TO YOUR qb-shops/config.lua file!
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
+```
     
     
