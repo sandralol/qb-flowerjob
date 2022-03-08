@@ -88,8 +88,6 @@ ADD THIS TO YOUR qb-shops/config.lua file!
             slot = 1,
         },
     },
-    ```
-    ```lua
         ["flowerstore"] = {
         ["label"] = "Flower Store",
         ["coords"] = {
@@ -100,6 +98,7 @@ ADD THIS TO YOUR qb-shops/config.lua file!
         ["showblip"] = false,
         ["blipsprite"] = 52
     },
+    
     ```
     
     
