@@ -99,6 +99,4 @@ ADD THIS TO YOUR qb-shops/config.lua file!
         ["blipsprite"] = 52
     },
     
-    ```
-    
     
