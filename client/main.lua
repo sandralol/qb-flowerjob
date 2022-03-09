@@ -278,12 +278,12 @@ CreateThread(function()
 		local playerPed = PlayerPedId()
 		local coords = GetEntityCoords(playerPed)
 
-		if GetDistanceBetweenCoords(coords, Config.CircleZones.DrugDealer.coords, true) < 5 then
-			DrawMarker(2, Config.CircleZones.DrugDealer.coords.x, Config.CircleZones.DrugDealer.coords.y, Config.CircleZones.DrugDealer.coords.z - 0.2 , 0, 0, 0, 0, 0, 0, 0.3, 0.2, 0.15, 255, 0, 0, 100, 0, 0, 0, true, 0, 0, 0)
+		if GetDistanceBetweenCoords(coords, Config.CircleZones.Gardener.coords, true) < 5 then
+			DrawMarker(2, Config.CircleZones.Gardener.coords.x, Config.CircleZones.Gardener.coords.y, Config.CircleZones.Gardener.coords.z - 0.2 , 0, 0, 0, 0, 0, 0, 0.3, 0.2, 0.15, 255, 0, 0, 100, 0, 0, 0, true, 0, 0, 0)
 
 
-			if not isProcessing2 and GetDistanceBetweenCoords(coords, Config.CircleZones.DrugDealer.coords, true) <1 then
-				QBCore.Functions.DrawText3D(Config.CircleZones.DrugDealer.coords.x, Config.CircleZones.DrugDealer.coords.y, Config.CircleZones.DrugDealer.coords.z, 'Press ~g~[E]~w~ to sell your flowers')
+			if not isProcessing2 and GetDistanceBetweenCoords(coords, Config.CircleZones.Gardener.coords, true) <1 then
+				QBCore.Functions.DrawText3D(Config.CircleZones.Gardener.coords.x, Config.CircleZones.Gardener.coords.y, Config.CircleZones.Gardener.coords.z, 'Press ~g~[E]~w~ to sell your flowers')
 			end
 
 			if IsControlJustReleased(0, 38) and not isProcessing2 then
