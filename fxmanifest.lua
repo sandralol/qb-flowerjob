@@ -6,12 +6,12 @@ description 'QB-WeedPicking'
 
 server_scripts {
 	'config.lua',
-	'server/weedplant.lua'
+	'server/main.lua'
 }
 
 client_scripts {
 	'config.lua',
-	'client/weedplant.lua'
+	'client/main.lua'
 }
 
 lua54 'yes'
